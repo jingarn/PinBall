@@ -7,10 +7,10 @@ public class ScoreManager : MonoBehaviour
 {
     private static readonly Dictionary<string, int> PointDictionary = new Dictionary<string, int>()
     {
-        { "SmallStarTag", 1 },
-        {"LargeStarTag", 3 },
-        { "SmallCloudTag", 4 },
-        { "LargeCloudTag", 7 }
+        { "SmallStarTag", 10 },
+        {"LargeStarTag", 30 },
+        { "SmallCloudTag", 40 },
+        { "LargeCloudTag", 70 }
     };
 
     //スコアを表示するテキスト
